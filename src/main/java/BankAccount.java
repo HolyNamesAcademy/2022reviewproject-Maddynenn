@@ -10,9 +10,8 @@ public class BankAccount {
      * @param in_accountBalance The starting balance for the account.
      */    public BankAccount(String in_name, double in_accountBalance)
     {
-
-        // write your code above and remove the line below
-        throw new UnsupportedOperationException();
+        in_name = this.name;
+        in_accountBalance = this.accountBalance;
     }
 
     /**
@@ -20,9 +19,7 @@ public class BankAccount {
      */
     public String GetName()
     {
-
-        // write your code above and remove the line below
-        throw new UnsupportedOperationException();
+        return name;
     }
 
     /**
@@ -30,9 +27,7 @@ public class BankAccount {
      */
     public double GetBalance()
     {
-
-        // write your code above and remove the line below
-        throw new UnsupportedOperationException();
+        return accountBalance;
     }
 
     /**
@@ -47,9 +42,13 @@ public class BankAccount {
      */
     public double Deposit(double amount)
     {
-
-        // write your code above and remove the line below
-        throw new UnsupportedOperationException();
+        if(amount > 0) {
+            accountBalance += amount;
+            return amount;
+        }
+        else{
+            return 0;
+        }
     }
 
     /**
@@ -67,9 +66,13 @@ public class BankAccount {
      */
     public double Withdraw(double amount)
     {
-
-        // write your code above and remove the line below
-        throw new UnsupportedOperationException();
+        if(amount > 0){
+            accountBalance -= amount;
+            return amount;
+        }
+        else{
+            return 0;
+        }
     }
 
     /**
@@ -87,9 +90,9 @@ public class BankAccount {
      */
     public double AddInterest(int numYears, double interestRate)
     {
+        double amountAdded = accountBalance * numYears * interestRate;
+        accountBalance += amountAdded;
 
-        // write your code above and remove the line below
-        throw new UnsupportedOperationException();
     }
 
     /**
@@ -102,9 +105,7 @@ public class BankAccount {
      */
     public String toString()
     {
-
-        // write your code above and remove the line below
-        throw new UnsupportedOperationException();
+        String result = "Name: " + name + "/n" + "Account Balance: " + accountBalance;
     }
 
     /**
