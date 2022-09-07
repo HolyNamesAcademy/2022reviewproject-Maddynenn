@@ -10,8 +10,9 @@ public class BankAccount {
      * @param in_accountBalance The starting balance for the account.
      */    public BankAccount(String in_name, double in_accountBalance)
     {
-        in_name = this.name;
-        in_accountBalance = this.accountBalance;
+        name = in_name;
+        accountBalance = in_accountBalance;
+
     }
 
     /**
@@ -92,7 +93,7 @@ public class BankAccount {
     {
         double amountAdded = accountBalance * numYears * interestRate;
         accountBalance += amountAdded;
-
+        return amountAdded;
     }
 
     /**
@@ -106,6 +107,7 @@ public class BankAccount {
     public String toString()
     {
         String result = "Name: " + name + "/n" + "Account Balance: " + accountBalance;
+        return result;
     }
 
     /**
