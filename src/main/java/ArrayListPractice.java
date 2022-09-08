@@ -143,9 +143,15 @@ String numberList = "";
      * @return The tallest student in the list.
      */
     public static Student GetTallestStudent(ArrayList<Student> students) {
-
-        // write your code above and remove the line below
-        throw new UnsupportedOperationException();
+        Student result = students.get(0);
+        int maxHeight = students.get(0).GetHeight();
+        for (int i = 1; i < students.size(); i++) {
+            if(students.get(i).GetHeight() > maxHeight){
+                result = students.get(i);
+                maxHeight = students.get(i).GetHeight();
+            }
+        }
+        return result;
     }
 
     /**
