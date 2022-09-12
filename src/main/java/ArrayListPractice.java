@@ -185,9 +185,21 @@ String numberList = "";
      * @return A string that lists the team number followed by each team.
      */
     public static String GetTeamsString(ArrayList<ArrayList<Student>> teams) {
+        String result = "";
+        for (int i = 0; i < teams.size(); i++) {
+            result += "Team " + (i +1) + ": ";
+            for (int j = 0; j < teams.get(i).size(); j++) {
+                if(j == 0){
+                    result += teams.get(i).get(j).GetName();
+                }
+                else {
+                    result += ", " + teams.get(i).get(j).GetName();
+                }
+            }
+            result += "\n";
 
-        // write your code above and remove the line below
-        throw new UnsupportedOperationException();
+        }
+        return result;
     }
 
     /**
@@ -198,9 +210,11 @@ String numberList = "";
      * @param newFavoriteColor The new favorite color of the student.
      */
     public static void UpdateFavoriteColor(ArrayList<Student> students, String name, String newFavoriteColor) {
-
-        // write your code above and remove the line below
-        throw new UnsupportedOperationException();
+        for (int i = 0; i < students.size(); i++) {
+            if(students.get(i).GetName().equals(name)){
+                students.get(i).SetFavoriteColor(newFavoriteColor);
+            }
+        }
     }
 
     /**
@@ -211,9 +225,13 @@ String numberList = "";
      * @return An ArrayList containing all the students in gradeLevel.
      */
     public static ArrayList<Student> GetStudentsInGradeLevel(ArrayList<Student> students, int gradeLevel) {
-
-        // write your code above and remove the line below
-        throw new UnsupportedOperationException();
+        ArrayList<Student> result = new ArrayList<>();
+        for (int i = 0; i < students.size(); i++) {
+            if(students.get(i).GetGradeLevel() == gradeLevel){
+                result.add(students.get(i));
+            }
+        }
+        return result;
     }
 
     /**
@@ -227,9 +245,18 @@ String numberList = "";
      *     had sufficient funds in their account. Otherwise, false.
      */
     public static boolean TransferMoney(ArrayList<Student> students, String fromStudentName, String toStudentName, double amount) {
-
-        // write your code above and remove the line below
-        throw new UnsupportedOperationException();
+        int a = 0;
+        int b = 0;
+        for (int i = 0; i < students.size(); i++) {
+            if(students.get(i).GetName().equals(fromStudentName)){
+                a = i;
+            }
+            if(students.get(i).GetName().equals((toStudentName))){
+                b = i;
+            }
+        }
+        students.get(a).GetBankAccount().Withdraw(amount);
+        students.get(b).GetBankAccount().Deposit(amount);
     }
 
     /**
