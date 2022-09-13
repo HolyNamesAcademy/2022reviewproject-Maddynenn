@@ -294,8 +294,8 @@ String numberList = "";
      * @param students The list of students to sort.
      */
     public static void SortByGradeAndName(ArrayList<Student> students) {
-
-        // write your code above and remove the line below
-        throw new UnsupportedOperationException();
+        for (int i = 0; i < ; i++) {
+            
+        }
     }
 }
