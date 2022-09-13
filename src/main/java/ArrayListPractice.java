@@ -245,6 +245,7 @@ String numberList = "";
      *     had sufficient funds in their account. Otherwise, false.
      */
     public static boolean TransferMoney(ArrayList<Student> students, String fromStudentName, String toStudentName, double amount) {
+        boolean valid = false;
         int a = 0;
         int b = 0;
         for (int i = 0; i < students.size(); i++) {
@@ -255,8 +256,16 @@ String numberList = "";
                 b = i;
             }
         }
-        students.get(a).GetBankAccount().Withdraw(amount);
-        students.get(b).GetBankAccount().Deposit(amount);
+        if(students.get(a).GetBankAccount().GetBalance() >= amount){
+            valid = true;
+            students.get(a).GetBankAccount().Withdraw(amount);
+            students.get(b).GetBankAccount().Deposit(amount);
+            return valid;
+        }
+        else{
+            return valid;
+        }
+
     }
 
     /**
@@ -266,9 +275,14 @@ String numberList = "";
      * @param students The list of students to advance to the next grade.
      */
     public static void UpdateGradeLevels(ArrayList<Student> students) {
-
-        // write your code above and remove the line below
-        throw new UnsupportedOperationException();
+        for (int i = 0; i < students.size(); i++) {
+            if(students.get(i).GetGradeLevel()==12){
+                students.remove(i);
+            }
+            else{
+                students.get(i).SetGradeLevel(students.get(i).GetGradeLevel() + 1);
+            }
+        }
     }
 
     /**
