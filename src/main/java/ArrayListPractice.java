@@ -95,7 +95,7 @@ String numberList = "";
     public static ArrayList<Integer> CreateNumberArray(int first, int last) {
         ArrayList<Integer> result = new ArrayList<>();
         int i = first;
-        while(i <= last){
+        while(i < last){
             result.add(i);
             i++;
         }
@@ -275,7 +275,7 @@ String numberList = "";
      * @param students The list of students to advance to the next grade.
      */
     public static void UpdateGradeLevels(ArrayList<Student> students) {
-        for (int i = 0; i < students.size(); i++) {
+        for (int i = students.size() -1; i >= 0; i--) {
             if(students.get(i).GetGradeLevel()==12){
                 students.remove(i);
             }
@@ -294,8 +294,25 @@ String numberList = "";
      * @param students The list of students to sort.
      */
     public static void SortByGradeAndName(ArrayList<Student> students) {
-        for (int i = 0; i < ; i++) {
-            
+        int i, j;
+        for (i = 1; i < students.size(); i++) {
+            Student tmp = students.get(i);
+            j = i;
+            while ((j > 0) && (students.get(j - 1).GetGradeLevel() > tmp.GetGradeLevel())) {
+                students.set(j, students.get(j - 1));
+                j--;
+            }
+            students.set(j, tmp);
         }
+        for (i = 1; i < students.size(); i++) {
+            Student tmp = students.get(i);
+            j = i;
+            while ((j > 0) && (students.get(j - 1).GetName().compareToIgnoreCase(tmp.GetName())) > 0) {
+                students.set(j, students.get(j - 1));
+                j--;
+            }
+            students.set(j, tmp);
+        }
+
     }
 }
