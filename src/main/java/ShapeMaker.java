@@ -14,7 +14,14 @@ public class ShapeMaker {
      */
     public static String PrintSquare(int size)
     {
-        return "";
+        String result = "";
+        for(int i = 0; i < size; i++){
+            for(int j = 0; j < size; j++){
+                result += "* ";
+            }
+            result += "\n";
+        }
+        return result;
     }
 
     /**
@@ -31,8 +38,14 @@ public class ShapeMaker {
      */
     public static String PrintRectangle(int length, int height)
     {
-        // write your code here
-        return "";
+        String result = "";
+        for(int i = 0; i < height; i++){
+            for(int j = 0; j < length; j++){
+                result += "* ";
+            }
+            result += "\n";
+        }
+        return result;
     }
 
     /**
@@ -49,8 +62,14 @@ public class ShapeMaker {
      */
     public static String PrintRightTriangle(int height)
     {
-        // write your code here
-        return "";
+        String result = "";
+        for(int i = 0; i < height; i++){
+            for(int j = 0; j < i+1; j++){
+                result += "* ";
+            }
+            result += "\n";
+        }
+        return result;
     }
 
     /**
@@ -67,8 +86,14 @@ public class ShapeMaker {
      */
     public static String PrintInvertedRightTriangle(int height)
     {
-        // write your code here
-        return "";
+        String result = "";
+        for(int i = 0; i < height; i++){
+            for(int j = i; j < height; j++){
+                result += "* ";
+            }
+            result += "\n";
+        }
+        return result;
     }
 
     /**
@@ -86,8 +111,21 @@ public class ShapeMaker {
 
     public static String PrintBackwardsRightTriangle(int height)
     {
-        // write your code here
-        return "";
+        String result = "";
+        for(int i = 0; i < height; i++){
+            for(int j = i; j < height; j++){
+                result += "  ";
+            }
+            result += "\n";
+        }
+        for(int i = 0; i < height; i++){
+            for(int j = 0; j <= i; j++){
+                result += "* "
+            }
+
+        }
+
+        return result;
     }
 
     /**
