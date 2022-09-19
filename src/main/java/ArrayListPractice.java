@@ -245,9 +245,8 @@ String numberList = "";
      *     had sufficient funds in their account. Otherwise, false.
      */
     public static boolean TransferMoney(ArrayList<Student> students, String fromStudentName, String toStudentName, double amount) {
-        boolean valid = false;
-        int a = 0;
-        int b = 0;
+        int a = -1;
+        int b = -1;
         for (int i = 0; i < students.size(); i++) {
             if(students.get(i).GetName().equals(fromStudentName)){
                 a = i;
@@ -256,14 +255,15 @@ String numberList = "";
                 b = i;
             }
         }
-        if(students.get(a).GetBankAccount().GetBalance() >= amount){
-            valid = true;
-            students.get(a).GetBankAccount().Withdraw(amount);
+        if(a == -1 || b == -1){
+            return false;
+        }
+        if(students.get(a).GetBankAccount().Withdraw(amount) != 0){
             students.get(b).GetBankAccount().Deposit(amount);
-            return valid;
+            return true;
         }
         else{
-            return valid;
+            return false;
         }
 
     }

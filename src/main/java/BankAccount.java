@@ -67,11 +67,16 @@ public class BankAccount {
      */
     public double Withdraw(double amount)
     {
-        if(amount > 0){
+        if(amount > 0 && amount <= accountBalance){
             accountBalance -= amount;
             return amount;
         }
+        else if(amount < 0){
+            System.out.println("Sorry, the amount withdrawn must be greater than 0.");
+            return 0;
+        }
         else{
+            System.out.println("Sorry, you cannot withdraw more than the account balance.");
             return 0;
         }
     }
