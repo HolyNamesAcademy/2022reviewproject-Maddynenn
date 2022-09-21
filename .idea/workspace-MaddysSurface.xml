@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6444475a-4c22-4334-ba4d-e1f5988849e3" name="Changes" comment="9/19/22&#10;&#10;Made changes ArrayListPractice and BankAccount&#10;\n is working now&#10;Finished BankAccount and ArraylistPractice&#10;Need to do ArrayListPracticeExtraCredit&#10;Working on PrintBackWardsRightTriangle&#10;&#10;Hi future Maddy" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2E7pU1JNs1p6czroHNsHOIGc1zB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="JUnit.ShapeMakerTest.printInvertedRightTriangle">
+    <configuration name="ArrayListPracticeTest.TransferMoneyNonExistentStudent2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Project1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ArrayListPracticeTest" />
+      <option name="METHOD_NAME" value="TransferMoneyNonExistentStudent2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShapeMakerTest.printInvertedRightTriangle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Project1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ShapeMakerTest" />
+      <option name="METHOD_NAME" value="printInvertedRightTriangle" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShapeMakerTest.printRectangle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Project1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ShapeMakerTest" />
+      <option name="METHOD_NAME" value="printRectangle" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShapeMakerTest.printRightTriangle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Project1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ShapeMakerTest" />
+      <option name="METHOD_NAME" value="printRightTriangle" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShapeMakerTest.printSquare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Project1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ShapeMakerTest" />
+      <option name="METHOD_NAME" value="printSquare" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ShapeMakerTest.printInvertedRightTriangle" />
+        <item itemvalue="JUnit.ShapeMakerTest.printRightTriangle" />
+        <item itemvalue="JUnit.ShapeMakerTest.printRectangle" />
+        <item itemvalue="JUnit.ShapeMakerTest.printSquare" />
+        <item itemvalue="JUnit.ArrayListPracticeTest.TransferMoneyNonExistentStudent2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6444475a-4c22-4334-ba4d-e1f5988849e3" name="Changes" comment="" />
+      <created>1661956489766</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1661956489766</updated>
+    </task>
+    <task id="LOCAL-00001" summary="8/31/22&#10;&#10;Made changes in BankAccount &#10;Hi future Maddy">
+      <created>1661957628460</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1661957628460</updated>
+    </task>
+    <task id="LOCAL-00002" summary="8/31/22&#10;&#10;Made changes in BankAccount &#10;Hi future Maddy">
+      <created>1662522582166</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662522582166</updated>
+    </task>
+    <task id="LOCAL-00003" summary="9/7/22&#10;&#10;Made changes in BankAccount &amp; ArrayListPractice&#10;\n isn't working&#10;Hi future Maddy">
+      <created>1662562165704</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662562165704</updated>
+    </task>
+    <task id="LOCAL-00004" summary="9/8/22&#10;&#10;Made changes in BankAccount &amp; ArrayListPractice&#10;\n isn't working&#10;Hi future Maddy">
+      <created>1662657049963</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662657049963</updated>
+    </task>
+    <task id="LOCAL-00005" summary="9/8/22&#10;&#10;Made changes ArrayListPractice and need to update methods in Bankaccount&#10;\n is working now&#10;Hi future Maddy">
+      <created>1662994266713</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1662994266714</updated>
+    </task>
+    <task id="LOCAL-00006" summary="9/8/22&#10;&#10;Made changes ArrayListPractice and need to update methods in Bankaccount&#10;\n is working now&#10;Hi future Maddy">
+      <created>1663093840720</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1663093840721</updated>
+    </task>
+    <task id="LOCAL-00007" summary="9/13/22&#10;&#10;Made changes ArrayListPractice and need to update methods in Bankaccount&#10;\n is working now&#10;Reverse UpdateGradeLevels loop cuz of remove()&#10;Hi future Maddy">
+      <created>1663094074114</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1663094074115</updated>
+    </task>
+    <task id="LOCAL-00008" summary="9/14/22&#10;&#10;Made changes ArrayListPractice and need to update methods in Bankaccount&#10;\n is working now&#10;Error with a method&#10;Hi future Maddy">
+      <created>1663167021243</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1663167021243</updated>
+    </task>
+    <task id="LOCAL-00009" summary="9/14/22&#10;&#10;Made changes ArrayListPractice and BankAccount&#10;\n is working now&#10;Finished BankAccount and ArraylistPractice&#10;Need to do ArrayListPractice Extra Credit&#10;&#10;Hi future Maddy">
+      <created>1663597376886</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1663597376886</updated>
+    </task>
+    <task id="LOCAL-00010" summary="9/19/22&#10;&#10;Made changes ArrayListPractice and BankAccount&#10;\n is working now&#10;Finished BankAccount and ArraylistPractice&#10;Need to do ArrayListPracticeExtraCredit&#10;Working on PrintBackWardsRightTriangle&#10;&#10;Hi future Maddy">
+      <created>1663598874321</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1663598874322</updated>
+    </task>
+    <task id="LOCAL-00011" summary="9/19/22&#10;&#10;Made changes ArrayListPractice and BankAccount&#10;\n is working now&#10;Finished BankAccount and ArraylistPractice&#10;Need to do ArrayListPracticeExtraCredit&#10;Working on PrintBackWardsRightTriangle&#10;&#10;Hi future Maddy">
+      <created>1663622226041</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1663622226041</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="8/31/22&#10;&#10;Made changes in BankAccount &#10;Hi future Maddy" />
+    <MESSAGE value="8/31/22&#10;&#10;Made changes in BankAccount &amp; ArrayListPractice&#10;\n isn't working&#10;Hi future Maddy" />
+    <MESSAGE value="9/7/22&#10;&#10;Made changes in BankAccount &amp; ArrayListPractice&#10;\n isn't working&#10;Hi future Maddy" />
+    <MESSAGE value="9/8/22&#10;&#10;Made changes in BankAccount &amp; ArrayListPractice&#10;\n isn't working&#10;Hi future Maddy" />
+    <MESSAGE value="9/8/22&#10;&#10;Made changes ArrayListPractice and need to update methods in Bankaccount&#10;\n is working now&#10;Hi future Maddy" />
+    <MESSAGE value="9/13/22&#10;&#10;Made changes ArrayListPractice and need to update methods in Bankaccount&#10;\n is working now&#10;Reverse UpdateGradeLevels loop cuz of remove()&#10;Hi future Maddy" />
+    <MESSAGE value="9/14/22&#10;&#10;Made changes ArrayListPractice and need to update methods in Bankaccount&#10;\n is working now&#10;Error with a method&#10;Hi future Maddy" />
+    <MESSAGE value="9/14/22&#10;&#10;Made changes ArrayListPractice and BankAccount&#10;\n is working now&#10;Finished BankAccount and ArraylistPractice&#10;Need to do ArrayListPractice Extra Credit&#10;&#10;Hi future Maddy" />
+    <MESSAGE value="9/19/22&#10;&#10;Made changes ArrayListPractice and BankAccount&#10;\n is working now&#10;Finished BankAccount and ArraylistPractice&#10;Need to do ArrayListPracticeExtraCredit&#10;Working on PrintBackWardsRightTriangle&#10;&#10;Hi future Maddy" />
+    <option name="LAST_COMMIT_MESSAGE" value="9/19/22&#10;&#10;Made changes ArrayListPractice and BankAccount&#10;\n is working now&#10;Finished BankAccount and ArraylistPractice&#10;Need to do ArrayListPracticeExtraCredit&#10;Working on PrintBackWardsRightTriangle&#10;&#10;Hi future Maddy" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ArrayListPracticeTest.java</url>
+          <line>106</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/ShapeMakerTest.java</url>
+          <line>6</line>
+          <properties class="ShapeMakerTest" method="printSquare">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

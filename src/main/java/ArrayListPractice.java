@@ -287,7 +287,7 @@ String numberList = "";
 
     /**
      * EXTRA CREDIT:
-     * Sort the array list by increasing grade level (all the 9th graders, then 10th graders, etc)
+     * Sort the array list by increasing grade level (all the 9th graders, then 10th graders, etc.)
      * If there is a tie (aka 2 people in the same grade), the person whose name is first in the
      * alphabet should appear first.
      *
