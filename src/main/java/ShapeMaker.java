@@ -111,8 +111,9 @@ public class ShapeMaker {
 
     public static String PrintBackwardsRightTriangle(int height)
     {
-        int a = 0;
         String result = "";
+        int a = 0;
+
         for(int i = 0; i < height; i++){
             for(int j = i; j < height; j++){
                 result += "  ";
@@ -141,7 +142,26 @@ public class ShapeMaker {
      */
     public static String PrintEquilateralTriangle(int height)
     {
-        // write your code here
-        return "";
+        String result = "";
+        int spaces = height - 1;
+
+
+        for(int i = 0; i < height; i++){
+            int tempCount = spaces - 1;
+            while(tempCount <= height){
+                result += " ";
+                tempCount++;
+            }
+            for(int k = 0; k <= i; k++){
+                result += "* ";
+            }
+            result += "\n";
+            spaces -= 1;
+        }
+        return result;
+
+
+
+
     }
 }
