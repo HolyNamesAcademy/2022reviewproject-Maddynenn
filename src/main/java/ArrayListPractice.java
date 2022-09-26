@@ -294,25 +294,20 @@ String numberList = "";
      * @param students The list of students to sort.
      */
     public static void SortByGradeAndName(ArrayList<Student> students) {
-        int i, j;
-        for (i = 1; i < students.size(); i++) {
-            Student tmp = students.get(i);
-            j = i;
-            while ((j > 0) && (students.get(j - 1).GetGradeLevel() > tmp.GetGradeLevel())) {
-                students.set(j, students.get(j - 1));
-                j--;
+        for(int i = 0; i < students.size() - 1; i++){
+            for(int j = 0; j < students.size() - i - 1; j++){
+                if(students.get(j).GetGradeLevel() > students.get(j + 1).GetGradeLevel()){
+                    Student temp = students.get(j);
+                    students.set(j, students.get(j + 1));
+                    students.set(j+1, temp);
+                } else if (students.get(j).GetGradeLevel() == students.get(j + 1).GetGradeLevel()) {
+                    if(students.get(j).GetName().compareToIgnoreCase(students.get(j + 1).GetName()) > 0){
+                        Student temp = students.get(j);
+                        students.set(j, students.get(j + 1));
+                        students.set(j+1, temp);
+                    }
+                }
             }
-            students.set(j, tmp);
         }
-        for (i = 1; i < students.size(); i++) {
-            Student tmp = students.get(i);
-            j = i;
-            while ((j > 0) && (students.get(j - 1).GetName().compareToIgnoreCase(tmp.GetName())) > 0) {
-                students.set(j, students.get(j - 1));
-                j--;
-            }
-            students.set(j, tmp);
-        }
-
     }
 }
