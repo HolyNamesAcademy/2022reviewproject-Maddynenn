@@ -17,7 +17,12 @@ public class ShapeMaker {
         String result = "";
         for(int i = 0; i < size; i++){
             for(int j = 0; j < size; j++){
-                result += "* ";
+                if(j == size - 1) {
+                    result += "*";
+                }
+                else{
+                    result += "* ";
+                }
             }
             result += "\n";
         }
@@ -41,7 +46,12 @@ public class ShapeMaker {
         String result = "";
         for(int i = 0; i < height; i++){
             for(int j = 0; j < length; j++){
-                result += "* ";
+                if(j == length - 1) {
+                    result += "*";
+                }
+                else{
+                    result += "* ";
+                }
             }
             result += "\n";
         }
@@ -65,7 +75,12 @@ public class ShapeMaker {
         String result = "";
         for(int i = 0; i < height; i++){
             for(int j = 0; j < i+1; j++){
-                result += "* ";
+                if(j == i) {
+                    result += "*";
+                }
+                else{
+                    result += "* ";
+                }
             }
             result += "\n";
         }
@@ -89,7 +104,12 @@ public class ShapeMaker {
         String result = "";
         for(int i = 0; i < height; i++){
             for(int j = i; j < height; j++){
-                result += "* ";
+                if(j == height - 1){
+                    result += "*";
+                }
+                else{
+                    result += "* ";
+                }
             }
             result += "\n";
         }
@@ -112,17 +132,22 @@ public class ShapeMaker {
     public static String PrintBackwardsRightTriangle(int height)
     {
         String result = "";
-        int spaces = height - 1;
+        int spaces = height + 1;
         for(int i = 0; i < height; i ++){
             int tempCount = spaces;
             while (tempCount > 0){
                 tempCount--;
                 result += " ";
             }
-            for(int j = 0; j < height; j++){
-                result+="* ";
+            for(int j = 0; j <= i; j++){
+                if(j == i){
+                    result += "*";
+                }
+                else{
+                    result += "* ";
+                }
             }
-            spaces--;
+            spaces-=2;
             result += "\n";
         }
         return result;
@@ -153,7 +178,12 @@ public class ShapeMaker {
                 tempCount--;
             }
             for(int k = 0; k <= i; k++){
-                result += "* ";
+                if(k == i) {
+                    result += "*";
+                }
+                else{
+                    result += "* ";
+                }
             }
             result += "\n";
             spaces -= 1;
