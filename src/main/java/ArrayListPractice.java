@@ -167,10 +167,15 @@ String numberList = "";
      * @return List of Student objects.
      */
     public static ArrayList<Student> CreateStudentArray(ArrayList<String> names, ArrayList<Integer> heights, ArrayList<Integer> gradeLevels, ArrayList<String> favoriteColors, ArrayList<BankAccount> bankAccounts) {
+            ArrayList<Student> objects = new ArrayList<Student>();
+            for (int i = 0; i < objects.size(); i++) {
+                Student newStudent = new Student(names.get(i), heights.get(i), gradeLevels.get(i), favoriteColors.get(i), bankAccounts.get(i));
+                objects.add(newStudent);
+            }
+            return objects;
+            // write your code above and remove the line below
+        }
 
-        // write your code above and remove the line below
-        throw new UnsupportedOperationException();
-    }
 
     /**
      * Returns a string that lists teams from a 2-D ArrayList. Each ArrayList in
